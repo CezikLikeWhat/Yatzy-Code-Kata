@@ -6,8 +6,8 @@ namespace Yatzy;
 
 use InvalidArgumentException;
 
-class Roll {
-
+class Roll
+{
     /**
      * @var int[]
      */

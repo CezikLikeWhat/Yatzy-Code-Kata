@@ -8,14 +8,38 @@ class YatzyGame
 {
     public function __construct(
         public Roll $roll
-    ) {}
+    ) {
+    }
 
-    public function ones(): int { return $this->arraySumOfSpecificNumber(1); }
-    public function twos(): int { return $this->arraySumOfSpecificNumber(2); }
-    public function threes(): int { return $this->arraySumOfSpecificNumber(3); }
-    public function fours(): int { return $this->arraySumOfSpecificNumber(4); }
-    public function fives(): int { return $this->arraySumOfSpecificNumber(5); }
-    public function sixes(): int { return $this->arraySumOfSpecificNumber(6); }
+    public function ones(): int
+    {
+        return $this->arraySumOfSpecificNumber(1);
+    }
+
+    public function twos(): int
+    {
+        return $this->arraySumOfSpecificNumber(2);
+    }
+
+    public function threes(): int
+    {
+        return $this->arraySumOfSpecificNumber(3);
+    }
+
+    public function fours(): int
+    {
+        return $this->arraySumOfSpecificNumber(4);
+    }
+
+    public function fives(): int
+    {
+        return $this->arraySumOfSpecificNumber(5);
+    }
+
+    public function sixes(): int
+    {
+        return $this->arraySumOfSpecificNumber(6);
+    }
 
     public function chance(): int
     {
